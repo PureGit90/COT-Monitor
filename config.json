@@ -1,0 +1,39 @@
+{
+  "n8n_webhook_url": "https://aihustle.app.n8n.cloud/webhook/cot-report",
+  "assets": {
+    "NQ": {
+      "name": "Nasdaq 100",
+      "contract_name": "NASDAQ MINI",
+      "cftc_code": "209742"
+    },
+    "SPX": {
+      "name": "S&P 500",
+      "contract_name": "E-MINI S&P 500",
+      "cftc_code": "13874A"
+    },
+    "BTC": {
+      "name": "Bitcoin",
+      "contract_name": "BITCOIN",
+      "cftc_code": "133741"
+    },
+    "ETH": {
+      "name": "Ethereum",
+      "contract_name": "ETHER CASH SETTLED",
+      "cftc_code": "ETH"
+    },
+    "EUR": {
+      "name": "Euro FX",
+      "contract_name": "EURO FX",
+      "cftc_code": "099741"
+    },
+    "USD": {
+      "name": "US Dollar Index",
+      "contract_name": "USD INDEX",
+      "cftc_code": "098662"
+    }
+  },
+  "lookback": {
+    "divergence_weeks": 52,
+    "extreme_weeks": 156
+  }
+}
