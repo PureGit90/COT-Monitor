@@ -30,6 +30,26 @@
       "name": "US Dollar Index",
       "contract_name": "USD INDEX",
       "cftc_code": "098662"
+    },
+    "JPY": {
+      "name": "Japanese Yen",
+      "contract_name": "JAPANESE YEN",
+      "cftc_code": "097741"
+    },
+    "GBP": {
+      "name": "British Pound",
+      "contract_name": "BRITISH POUND",
+      "cftc_code": "096742"
+    },
+    "VIX": {
+      "name": "VIX Futures",
+      "contract_name": "VIX FUTURES",
+      "cftc_code": "1170E1"
+    },
+    "T10Y": {
+      "name": "10-Year Treasury",
+      "contract_name": "UST 10Y NOTE",
+      "cftc_code": "043602"
     }
   },
   "lookback": {
